@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator - Fitness Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <h1>ROYAL FITNESS</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="plans.html">Plans</a></li>
+                    <li><a href="bmi.html">BMI Calculator</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="health-awareness">
+            <p><strong>Worried about your health? Track your BMI today to stay on top of your fitness journey!</strong></p>
+        </section>
+        <section class="bmi-calculator">
+            <h1>BMI Calculator</h1>
+            <p>Enter your height and weight to calculate your Body Mass Index (BMI).</p>
+            <form onsubmit="event.preventDefault(); calculateBMI();">
+                <label for="height">Height (cm):</label>
+                <input type="number" id="height" placeholder="Enter your height in cm" required>
+                <br> </br>
+                <label for="weight">Weight (kg):</label>
+                <input type="number" id="weight" placeholder="Enter your weight in kg" required>
+                <br> </br>
+                <button type="submit">Calculate BMI</button>
+            </form>
+            <p id="bmiResult"></p>
+        </section>
+    </main>
+
+    <script>
+        function calculateBMI() {
+            const height = document.getElementById('height').value / 100; // Convert cm to meters
+            const weight = document.getElementById('weight').value; // Weight in kg
+            if (height > 0 && weight > 0) {
+                const bmi = (weight / (height * height)).toFixed(2); // BMI formula
+                document.getElementById('bmiResult').textContent = `Your BMI is ${bmi}`;
+            } else {
+                document.getElementById('bmiResult').textContent = 'Please enter valid height and weight.';
+            }
+        }
+    </script>
+
+    <footer>
+        <p>&copy; 2024 Royal Fitness. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
