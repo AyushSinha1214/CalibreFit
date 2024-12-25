@@ -1,0 +1,174 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+}
+
+/* Header Section */
+header {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+    position: relative;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Align the nav bar to the top right */
+    gap: 15px;
+    margin-top: -40px; /* Adjust to ensure the nav is on top of the hero section */
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+header p {
+    margin: 15px 0;
+}
+
+header .btn {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+header .btn:hover {
+    background-color: #e64a19;
+}
+
+header button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+header button:hover {
+    background-color: #e64a19;
+}
+
+/* Fitness Image */
+.fitness-image {
+    float: right;
+    margin-top: -50px; /* Adjust to align image properly */
+    margin-right: 20px;
+    width: 250px;
+    height: 350px;
+}
+
+/* Highlights Section */
+#highlights {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.highlight {
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.highlight h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ff5722;
+}
+
+/* Gallery Section */
+#gallery {
+    padding: 20px;
+    background-color: #3a3a3a;
+    color: white;
+    text-align: center;
+}
+
+#gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.gallery-item {
+    margin: 15px auto;
+    max-width: 400px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gallery-item h3 {
+    font-size: 1.5rem;
+    color: #ff5722;
+    margin-bottom: 10px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #3a3a3a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
