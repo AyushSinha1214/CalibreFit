@@ -76,7 +76,7 @@ header nav ul li a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adding shadow for depth */
 }
 header p {
-    margin: 15px 0;
+    margin: 13px 0;
 }
 
 header .btn {
@@ -121,12 +121,11 @@ header .hero-text {
 /* Fitness Image */
 .fitness-image {
     float: right;
-    margin-top: -150px;
+    margin-top: -275px;
     /* margin-right: 0px; */
     width: 1500px;
-    height: 700px;
+    height: 750px;
 }
-
 /* Highlights Section */
 #highlights {
     display: flex;
@@ -148,8 +147,9 @@ header .hero-text {
     padding: 15px;
     background-color: #ebe9e9;
     border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Increased shadow */
 }
+
 
 .highlight h3 {
     font-size: 1.5rem;
