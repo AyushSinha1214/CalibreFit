@@ -24,7 +24,6 @@ header {
 }
 
 header h1 {
-    background-color: #2e2e2e;
     font-size: 2rem;
     margin-bottom: 1px;
 }
@@ -55,119 +54,40 @@ header nav ul li a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-
-/* Who Are We Section */
+/* Section Styles */
 #who-are-we {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 50vh;
-    background: linear-gradient(to right, #a3a3a3 50%, #ffffff 50%);
-    width: 100%;
-    height: auto;
+    background-color: #2e2e2e;
+    color: white;
     padding: 20px;
     text-align: left;
-    position: relative;
 }
 
-#who-are-we img {
-    max-width: 100%;
-    height: auto;
-    flex: 1 1 40%;
-    margin: 0 auto;
-}
-
-#who-are-we h2 {
-    flex: 1 1 60%;
-    font-size: 2rem;
-    color: #ff5722;
-    margin-bottom: 15px;
-}
-
-#who-are-we p {
-    flex: 1 1 60%;
-    font-size: 1rem;
-    line-height: 1.8;
-}
-
-/* What We Provide Section */
 #what-we-provide {
+    background-color: #ffffff;
+    color: #333;
     padding: 20px;
-    background-color: #fff;
     text-align: left;
 }
 
-#what-we-provide h2 {
-    color: #ff5722;
-    margin-bottom: 15px;
-}
-
-#what-we-provide ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-#what-we-provide ul li {
-    margin-bottom: 10px;
-    line-height: 1.5;
-}
-
-/* Why Us Section */
 #why-us {
+    background-color: #2e2e2e;
+    color: white;
     padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
     text-align: left;
 }
 
-#why-us img {
-    max-width: 20%;
-    height: 55%;
-    flex: 1 1 40%;
-    margin: 0 auto;
-}
-
-#why-us p {
-    flex: 1 1 50%;
-    font-size: 1rem;
-    line-height: 1.8;
-}
-
-#why-us h2 {
-    width: 100%;
-    color: #ff5722;
-    margin-bottom: 20px;
-}
-
-/* Our Branches Section */
 #our-branches {
+    background-color: #ffffff;
+    color: #333;
     padding: 20px;
-    background-color: #f5f5f5;
     text-align: left;
-}
-
-#our-branches h2 {
-    color: #ff5722;
-    margin-bottom: 15px;
-}
-
-#our-branches ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-#our-branches ul li {
-    margin-bottom: 10px;
-    line-height: 1.5;
 }
 
 /* Footer Section */
 footer {
-    text-align: center;
-    background-color: #3a3a3a;
+    background-color: #2e2e2e;
     color: white;
+    text-align: center;
     padding: 10px;
     font-size: 0.9rem;
 }
