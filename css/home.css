@@ -63,11 +63,46 @@ header nav ul li a:hover {
 }
 
 #what-we-provide {
-    background-color: #ffffff;
-    color: #333;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #ffffff; /* White background */
     padding: 20px;
-    text-align: left;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+#what-we-provide .highlight {
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    background-color: #d6d6d6; /* Slightly darker grey */
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+#what-we-provide .highlight-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ff5722; /* Orange color for titles */
+}
+
+#what-we-provide .highlight-text {
+    font-size: 1rem;
+    color: #333; /* Dark grey for text */
+}
+
+#what-we-provide .section-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
 
 #why-us {
     background-color: #2e2e2e;
