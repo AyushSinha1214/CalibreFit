@@ -63,3 +63,32 @@ header .hero-text {
     line-height: 1.8;
     margin-top: 20px;
 }
+
+#why-choose-us {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#why-choose-us h2.section-title {
+    color: #ff5722; /* Sets the heading color to orange */
+    text-decoration: underline; /* Underlines the text */
+    text-decoration-color: #ff5722; /* Sets the underline color to the same orange */
+    text-align: center; /* Ensures the title is centered */
+    margin-bottom: 20px; /* Adds some spacing below the heading */
+}
+
+#why-choose-us p {
+    text-align: center; /* Centers the paragraph */
+    margin: 0 auto; /* Centers the paragraph block */
+    max-width: 800px; /* Optional: Restricts the width for better readability */
+    line-height: 1.8; /* Adjusts the line height for better spacing */
+}
+
+/* Footer Section */
+footer {
+    background-color: #2e2e2e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+}
