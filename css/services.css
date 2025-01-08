@@ -63,6 +63,45 @@ header .hero-text {
     line-height: 1.8;
     margin-top: 20px;
 }
+#what-we-provide .section-title {
+    color: #ff5722; /* Text color */
+    text-align: center; /* Center the heading */
+    text-decoration: underline; /* Add underline */
+    text-decoration-color: #ff5722; /* Underline color matches text */
+}
+
+/* Styling the highlight section */
+.highlight {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Right-aligned highlights */
+.highlight.right-align {
+    flex-direction: row-reverse; /* Reverse the order of image and content */
+}
+
+.highlight-image {
+    flex: 0 0 350px;
+    margin: 0 20px; /* Space adjustment for images */
+}
+
+.highlight-content {
+    flex: 1;
+}
+
+
+/* Content on the right */
+.highlight-content {
+    flex: 1;
+}
 
 #why-choose-us {
     text-align: center;
