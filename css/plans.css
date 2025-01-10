@@ -56,3 +56,50 @@ header nav ul li a:hover {
     transform: translateY(1.5rem);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+h3 {
+    text-align: center; /* Centers the text horizontally */
+    color: #ff5722; /* Orange color */
+    text-decoration: underline; /* Underlines the text */
+    text-decoration-color: #ff5722; /* Ensures underline matches the text color */
+    margin: 20px 0; /* Adds spacing above and below */
+    font-size: 2rem; /* Adjust font size for prominence */
+    font-weight: bold; /* Makes the heading stand out */
+}
+
+.plans-container {
+    display: flex; /* Align plan boxes in a row */
+    justify-content: center; /* Center them horizontally */
+    flex-wrap: wrap; /* Allow wrapping if the screen is smaller */
+    gap: 20px; /* Add space between the boxes */
+    margin: 30px auto; /* Add spacing and center the container */
+    max-width: 1200px; /* Restrict maximum width */
+}
+
+.plan-box {
+    text-align: center; /* Center content inside each box */
+    padding: 20px; /* Add inner padding */
+    background-color: #d6d6d6; /* White background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    width: 300px; /* Set a fixed width for boxes */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.plan-box h2 {
+    color: #ff5722; /* Orange color for headings */
+    margin-bottom: 10px; /* Add spacing below heading */
+    text-transform: uppercase; /* Make text uppercase */
+    font-size: 1.5rem; /* Adjust font size */
+}
+
+.plan-box p {
+    font-size: 1rem; /* Standard font size */
+    color: #333; /* Dark text color */
+    margin: 10px 0; /* Add spacing between lines */
+}
+
+.plan-box:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
