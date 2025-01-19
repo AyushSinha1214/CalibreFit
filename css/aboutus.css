@@ -213,6 +213,6 @@ footer {
     background-color: #2e2e2e;
     color: white;
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
     font-size: 0.9rem;
 }
